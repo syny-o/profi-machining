@@ -8,10 +8,10 @@ import NavMobile from "./NavMobile";
 const Header = () => {
   const links = [
     { name: "home", path: "home" },
-    { name: "about", path: "about" },
-    { name: "services", path: "services" },
-    { name: "work", path: "work" },
-    { name: "contact", path: "contact" },
+    { name: "o nás", path: "about" },
+    { name: "služby", path: "services" },
+    // { name: "work", path: "work" },
+    { name: "kontakt", path: "contact" },
   ];
 
   return (

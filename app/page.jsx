@@ -8,8 +8,11 @@ import About from "@/components/About";
 import Services from "@/components/Services";
 import Work from "@/components/Work";
 import Header from "@/components/Header";
-import Contact from "@/components/contact";
+import Contact from "@/components/Contact";
 import Stats from "@/components/Stats";
+import Footer from "@/components/Footer";
+import Testimonials from "@/components/Testimonials";
+import Faq from "@/components/Faq";
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -39,9 +42,14 @@ const Home = () => {
         <Header />
       </div>
       <Hero />
-      <About />
+      <Services />
       <Stats />
-
+      <About />
+      {/* <Work /> */}
+      {/*<Testimonials />*/}
+      <Faq />
+      <Contact />
+      <Footer />
     </div>
   );
 };

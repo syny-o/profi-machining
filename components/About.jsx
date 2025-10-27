@@ -27,14 +27,15 @@ const About = () => {
             </div>
           </div>
           {/* IMAGE */}
-          <div className="flex-1 xl:flex xl:justify-center">
-            <div className="xl:w-[444px] xl:h-[493px] relative">
+          <div className="hidden flex-1 xl:flex xl:justify-center">
+            <div className="xl:w-[444px] xl:h-[493px] relative flex justify-center items-center">
               {/* BG */}
-              <div className="hidden xl:flex w-[444px] h-[493px] bg-accent absolute -top-4 -left-4 -z-10"></div>
+              <div className="xl:flex w-[450px] h-[450px] bg-accent absolute -z-10 rounded-full"></div>
               <Image
-                src="/assets/img/about/img.jpg"
-                width={444}
-                height={492}
+                // src="/assets/img/about/img.jpg"
+                src="/assets/img/about/profi-machining.png"
+                width={345}
+                height={304}
                 alt="About Image"
 
                 

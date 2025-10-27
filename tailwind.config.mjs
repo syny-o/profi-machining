@@ -33,7 +33,7 @@ export default {
         custom: "0px 4px 54px 10px rgba(18, 19, 21, 0.06)",
       },
 	  backgroundImage: {
-		hero: "url('/assets/img/hero/bg.jpg')",
+		hero: "url('/assets/img/hero/hero_ai.png')",
 	  },
     },
   },

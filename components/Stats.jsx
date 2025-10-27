@@ -8,22 +8,17 @@ const statsData = [
   {
     endCountNum: 99,
     endCountText: "%",
-    text: "Client Satisfaction",
+    text: "Spokojených klientů",
   },
   {
     endCountNum: 100,
     endCountText: "+",
-    text: "Projects Completed",
+    text: "Dokončených projektů",
   },
   {
-    endCountNum: 10,
-    endCountText: "K",
-    text: "Lines of Code",
-  },
-  {
-    endCountNum: 50,
+    endCountNum: 1000,
     endCountText: "+",
-    text: "Active Users",
+    text: "Odpracovaných hodin",
   },
 ];
 
@@ -44,7 +39,7 @@ const Stats = () => {
                       start={0}
                       end={stat.endCountNum}
                       delay={0.5}
-                      duration={3}
+                      duration={2}
                     />
                   )}
                   <span>{stat.endCountText}</span>
