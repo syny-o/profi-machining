@@ -14,7 +14,7 @@ import {
 import { RiMenu3Fill } from "react-icons/ri";
 
 import Logo from "./Logo";
-import Socials from "./socials";
+import Socials from "./Socials";
 
 import { Link as ScrollLink } from "react-scroll";
 

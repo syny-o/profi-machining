@@ -14,7 +14,7 @@ const coopData = [
     img: "/assets/img/cooperation/liaz.png",
   },
   {
-    img: "/assets/img/cooperation/orise.jpg",
+    img: "/assets/img/cooperation/orise.png",
   },
 ];
 
