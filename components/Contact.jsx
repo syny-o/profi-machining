@@ -22,9 +22,7 @@ const Contact = () => {
               <h4 className="text-[26px] font-primary font-bold mb-6 text-accent uppercase">
                 Kontaktujte nás
               </h4>
-              <p className="mb-9 h-4">
-                
-              </p>
+              <p className="mb-9 h-4"></p>
               {/* contact items */}
               <div className="flex flex-col gap-[40px] mb-16">
                 {/* contact item */}
@@ -34,11 +32,13 @@ const Contact = () => {
                   </div>
                   <div>
                     <h5 className="text-[22px] font-semibold font-primary leading-none mb-2">
-                      Chat to us
+                      Napište nám
                     </h5>
-                    <p className="mb-4">Our friendly team is here to help.</p>
+                    <p className="mb-4">
+                      Náš tým je tu pro vás a rád vám pomůže.
+                    </p>
                     <p className="font-semibold text-primary">
-                      hi@urbanbuild.com
+                      info@profimachining.eu
                     </p>
                   </div>
                 </div>
@@ -49,11 +49,13 @@ const Contact = () => {
                   </div>
                   <div>
                     <h5 className="text-[22px] font-semibold font-primary leading-none mb-2">
-                      Office
+                      Sídlo společnosti
                     </h5>
-                    <p className="mb-4">Come and say hello at our office.</p>
+                    <p className="mb-4">
+                      Zastavte se u nás nebo nás kontaktujte předem.
+                    </p>
                     <p className="font-semibold text-primary">
-                      1250 Brickstone Ave, Dallas, TX 75201, USA
+                      Větrná 1919/20A 46601 Jablonec nad Nisou
                     </p>
                   </div>
                 </div>
@@ -64,15 +66,16 @@ const Contact = () => {
                   </div>
                   <div>
                     <h5 className="text-[22px] font-semibold font-primary leading-none mb-2">
-                      Phone
+                      Telefon
                     </h5>
-                    <p className="mb-4">Mon-Fri from 8am to 5pm.</p>
+                    <p className="mb-4">Pondělí–pátek od 8:00 do 16:00.</p>
                     <p className="font-semibold text-primary">
-                      +1 (555) 000-0000
+                      +420 724 777 078
                     </p>
                   </div>
                 </div>
               </div>
+
               <Socials
                 containerStyles="flex gap-[40px]"
                 iconStyles="text-primary text-[20px]"
@@ -82,7 +85,8 @@ const Contact = () => {
             <div className="flex-1">
               <h3 className="h3 mb-3 font-bold">Nezávazná poptávka</h3>
               <p className="mb-9">
-                Máte dotaz nebo zájem o spolupráci? Napište nám, ozveme se co nejdříve.
+                Máte dotaz nebo zájem o spolupráci? Napište nám, ozveme se co
+                nejdříve.
               </p>
               <Form />
             </div>

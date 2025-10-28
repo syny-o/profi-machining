@@ -13,6 +13,7 @@ import Stats from "@/components/Stats";
 import Footer from "@/components/Footer";
 import Testimonials from "@/components/Testimonials";
 import Faq from "@/components/Faq";
+import Cooperation from "@/components/Cooperation";
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -45,10 +46,11 @@ const Home = () => {
       <Services />
       <Stats />
       <About />
-      {/* <Work /> */}
+      <Work />
       {/*<Testimonials />*/}
       <Faq />
       <Contact />
+      <Cooperation />
       <Footer />
     </div>
   );

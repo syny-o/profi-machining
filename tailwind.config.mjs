@@ -26,6 +26,7 @@ export default {
         primary: "#121315",
         secondary: "#666666",
         accent: "#ffca3b",
+        // accent: "#0693e3",
         border: "#2C2D31",
         background: "#121315",
       },
@@ -33,7 +34,7 @@ export default {
         custom: "0px 4px 54px 10px rgba(18, 19, 21, 0.06)",
       },
 	  backgroundImage: {
-		hero: "url('/assets/img/hero/hero_ai.png')",
+		hero: "url('/assets/img/hero/bg-ai.jpg')",
 	  },
     },
   },

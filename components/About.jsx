@@ -20,7 +20,7 @@ const About = () => {
               </p>
               <div className="w-max flex flex-col text-right mb-10">
                 <Image src="/assets/img/about/signature.svg" width={154} height={38} alt="Signature" />
-                <p className="mt-3 font-primary italic">Jiří Kysela, CEO</p>
+                <p className="mt-3 font-primary italic">Jiří Kysela, jednatel</p>
               </div>
               {/* BTN */}
               <Button text="Kontaktovat" />

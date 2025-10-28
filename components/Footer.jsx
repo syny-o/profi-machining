@@ -21,12 +21,12 @@ const Footer = () => {
       // initial="hidden"
       // whileInView="show"
       // viewport={{ once: false, amount: 0.1 }}
-      className="mt-16 xl:mt-32 bg-primary"
+      className=" bg-primary"
     >
       <div className="container mx-auto">
-        <div className="py-16 xl:py-[100px] flex flex-col xl:flex-row gap-[60px] xl:gap-[30px]">
+        <div className="py-8 xl:py-[80px] flex flex-col xl:flex-row gap-[60px] xl:gap-[30px] items-center">
           {/* logo & text */}
-          <div className="flex-1">
+          <div className="flex-1 text-center xl:text-left">
             <Link href="/" className="flex mb-6">
               <Logo />
             </Link>
@@ -37,9 +37,9 @@ const Footer = () => {
             </p>
           </div>
           {/* contact */}
-          <div className="flex-1 text-white">
-            <h4 className="h4 text-white mb-10">Kontakt</h4>
-            <ul className="flex flex-col gap-6">
+          <div className="flex-1 text-white text-center xl:text-left">
+            {/* <h4 className="h4 text-white mb-10">Kontakt</h4> */}
+            <ul className="flex flex-col gap-6 items-center xl:items-start">
               <li className="flex items-center gap-4">
                 <RiMapPin2Fill className="text-accent text-xl" />
                 <p>Větrná 1919/20A 46601 Jablonec nad Nisou</p>
@@ -55,8 +55,8 @@ const Footer = () => {
             </ul>
           </div>
           {/* mapa sídla */}
-          <div className="flex-1 text-white">
-            <h4 className="h4 text-white mb-10">Kde nás najdete</h4>
+          <div className="flex-1 text-white text-center xl:text-left">
+            {/* <h4 className="h4 text-white mb-10">Kde nás najdete</h4> */}
 
             <div className="overflow-hidden shadow-lg border border-gray-700">
               <iframe
@@ -73,15 +73,16 @@ const Footer = () => {
         </div>
       </div>
       {/* copyright */}
-      <div className="container mx-auto xl:px-0 py-12 border-t border-border/10 flex flex-col gap-6 xl:flex-row items-center justify-between">
+      <div className="container mx-auto xl:px-0 py-6 border-t border-border/10 flex flex-col gap-6 xl:flex-row items-center justify-between">
         <p className="text-white">
-          Copyright &copy; 2025 Profi Machining s.r.o. All rights reserved.
+          Copyright &copy; 2025 Profi Machining s.r.o.
         </p>
         <Socials
           containerStyles="flex gap-6 text-white"
           iconStyles="hover:text-accent transition-all"
         />
       </div>
+      
     </motion.footer>
   );
 };
