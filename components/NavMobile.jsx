@@ -20,10 +20,9 @@ import { Link as ScrollLink } from "react-scroll";
 
 const links = [
   { name: "home", path: "home" },
-  { name: "about", path: "about" },
-  { name: "services", path: "services" },
-  { name: "work", path: "work" },
-  { name: "contact", path: "contact" },
+  { name: "služby", path: "services" },
+  { name: "o nás", path: "about" },
+  { name: "projekty", path: "projects" },
 ];
 
 const NavMobile = () => {
