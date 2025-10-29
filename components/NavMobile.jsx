@@ -23,6 +23,7 @@ const links = [
   { name: "služby", path: "services" },
   { name: "o nás", path: "about" },
   { name: "projekty", path: "projects" },
+  { name: "kontakt", path: "contact" },
 ];
 
 const NavMobile = () => {
