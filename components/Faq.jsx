@@ -44,15 +44,15 @@ const Faq = () => {
       <div className="container mx-auto">
         {/* text */}
         <motion.div
-          variants={fadeIn("up", 0.2)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.2 }}
-          className="text-center max-w-[540px] mx-auto xl:mb-20"
+          // variants={fadeIn("up", 0.2)}
+          // initial="hidden"
+          // whileInView="show"
+          // viewport={{ once: false, amount: 0.2 }}
+          className="text-center  mx-auto xl:mb-20"
         >
-          <Pretitle text="Faq" center />
-          <h2 className="h2 mb-3">Často kladené otázky</h2>
-          <p className="mb-11 max-w-[480px] mx-auto">
+          <Pretitle text="Faq" />
+          <h2 className="h2 mb-3 text-left">Často kladené otázky</h2>
+          <p className="mb-11 mx-auto text-left">
             Od prvotního plánování až po dokončení projektu jsme pro vás připravili odpovědi na nejčastější otázky, abyste měli všechny potřebné informace pro správná rozhodnutí.
           </p>
         </motion.div>
@@ -62,10 +62,10 @@ const Faq = () => {
             return (
               <motion.li
                 key={index}
-                variants={faqItemVariants}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: false, amount: 0.8 }}
+                // variants={faqItemVariants}
+                // initial="hidden"
+                // whileInView="visible"
+                // viewport={{ once: false, amount: 0.8 }}
                 custom={index} // pass index to control stagger effect
               >
                 <FaqItem title={item.title} description={item.description} />

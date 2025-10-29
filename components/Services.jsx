@@ -76,9 +76,9 @@ const Services = () => {
           // initial="hidden"
           // whileInView="show"
           // viewport={{ once: false, amount: 0.2 }}
-          className="text-center max-w-[960px] mx-auto mb-20"
+          className="text-left mx-auto mb-20"
         >
-          <Pretitle text="Služby" center />
+          <Pretitle text="Služby" />
           <h2 className="h2 mb-3">Co vám přinášíme</h2>
           <p className="mb-11  mx-auto">
             Naším hlavním zaměřením je poskytování{" "}

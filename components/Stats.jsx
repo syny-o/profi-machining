@@ -6,14 +6,14 @@ import CountUp from "react-countup";
 
 const statsData = [
   {
-    endCountNum: 99,
-    endCountText: "%",
-    text: "Spokojených klientů",
+    endCountNum: 50,
+    endCountText: "+",
+    text: "Dokončených projektů",
   },
   {
     endCountNum: 100,
-    endCountText: "+",
-    text: "Dokončených projektů",
+    endCountText: "%",
+    text: "Spokojených klientů",
   },
   {
     endCountNum: 1000,

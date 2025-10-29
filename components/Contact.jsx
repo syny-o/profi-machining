@@ -9,10 +9,10 @@ const Contact = () => {
   return (
     <section className="pt-16 xl:pt-32" id="contact">
       <motion.div
-        variants={fadeIn("up", 0.1)}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.2 }}
+        // variants={fadeIn("up", 0.1)}
+        // initial="hidden"
+        // whileInView="show"
+        // viewport={{ once: false, amount: 0.2 }}
         className="container mx-auto"
       >
         <div className="w-full xl:h-[730px] shadow-custom p-4 xl:p-8 xl:px-[90px] xl:py-[36px] border-t-4 border-accent">
@@ -77,7 +77,7 @@ const Contact = () => {
               </div>
 
               <Socials
-                containerStyles="flex gap-[40px]"
+                containerStyles="hidden xl:flex xl:gap-[40px] "
                 iconStyles="text-primary text-[20px]"
               />
             </div>

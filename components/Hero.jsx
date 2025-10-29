@@ -1,5 +1,6 @@
-import React from "react";
 import Button from "./Button";
+
+import { Link as ScrollLink } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -9,16 +10,19 @@ const Hero = () => {
 
       {/* CONTENT */}
       <div className="container mx-auto h-full flex items-center">
-        <div className="z-20 text-white text-center xl:text-left mx-auto xl:mx-0 flex flex-col items-center xl:items-start max-w-[608px]">
+        <div className="z-20 text-white text-left mx-auto xl:mx-0 flex flex-col items-start max-w-[608px]">
           <h1 className="h1 text-white mb-4">
             <span className="text-accent">Vytváříme</span> trvalá řešení
           </h1>
           <p className="mb-9">
-            Jsme dynamická firma, která se neustále vyvíjí a adaptuje. Naším hlavním zaměřením je poskytování operativních a efektivních řešení ve výrobních a montážních procesech.
+            Jsme dynamická firma, která se neustále vyvíjí a adaptuje. Naším
+            hlavním zaměřením je poskytování operativních a efektivních řešení
+            ve výrobních a montážních procesech.
           </p>
           {/* BUTTONS */}
-          < Button text="Více" />
-
+          <ScrollLink to="services" smooth={true} duration={500} offset={-70}>
+            <Button text="Více" />
+          </ScrollLink>
         </div>
       </div>
     </section>
